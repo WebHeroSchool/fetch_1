@@ -15,6 +15,5 @@ function fetchDo(user){
     document.body.append(img)})
     .catch((error) => console.error("Error:" + "Информация о пользователе не доступна"));
 }
-
 // fetchDo('Serzhunya');
 fetchDo('defunkt');
